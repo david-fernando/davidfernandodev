@@ -15,7 +15,18 @@ const Text = styled.span`
 
   ${props => props.about && css`
     font-size: 16px;
+  `}
+
+  ${props => props.description && css`
+    font-size: 16px;
     text-align: initial;
+    max-height: 44%;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    color: #161b3dbf;
   `}
 `
 

@@ -9,10 +9,13 @@ function requestApi(){
   }
   async function getGit(){
     const data = await request('https://api.github.com/users/david-fernando/repos')
+    console.log(data)
     return [
+      data[4],
       data[3],
-      data[2],
       data[6],
+      data[8],
+      data[11]
     ]
   }
   async function getMedium(){

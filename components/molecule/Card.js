@@ -8,7 +8,7 @@ function Card({ title, about }){
       <CardImage />
       <Container inforCard>
         <Text about>{ title }</Text>
-        <Text about>{ about }</Text>
+        <Text description>{ about }</Text>
       </Container>
     </Container>
   )
