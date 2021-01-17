@@ -15,6 +15,7 @@ const Text = styled.span`
 
   ${props => props.about && css`
     font-size: 16px;
+    text-align: initial;
   `}
 `
 

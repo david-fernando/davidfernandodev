@@ -21,7 +21,7 @@ function MainTemplate({ gitData, dataMedium }){
         <SliderCard title="Artigos no Medium">
           {
             dataMedium.map((items, index) =>(
-              <Card key={index} title={ dataMedium[index].title } about={ "Descrição do artigo" } />
+              <Card key={index} title={ dataMedium[index].title } about={ dataMedium[index].description } />
             ))
           }
         </SliderCard>
