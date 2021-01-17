@@ -9,7 +9,6 @@ function requestApi(){
   }
   async function getGit(){
     const data = await request('https://api.github.com/users/david-fernando/repos')
-    console.log(data)
     return [
       data[4],
       data[3],
