@@ -1,4 +1,5 @@
 import axios from 'axios'
+import returnSpecificRepositories from '../../utils/returnSpecificRepositories'
 
 function requestApi(){
 
@@ -9,12 +10,23 @@ function requestApi(){
   }
   async function getGit(){
     const data = await request('https://api.github.com/users/david-fernando/repos')
-    return [
-      data[4],
-      data[3],
-      data[6],
-      data[8],
-      data[11]
+
+    const repositoryNames = [
+      'Listador_de_arquivos',
+      'KeyboardVideoController',
+      'medium-posts-api',
+      'noLoopFor',
+      'react-electron-ts'
+    ]
+
+    const specificRepositories = returnSpecificRepositories(repositoryNames, data)
+
+    return [ 
+      specificRepositories[1],
+      specificRepositories[0],
+      specificRepositories[2],
+      specificRepositories[3],
+      specificRepositories[4]
     ]
   }
   async function getMedium(){
