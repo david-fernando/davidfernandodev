@@ -4,6 +4,7 @@ import Main from '../components/atom/Main'
 import Profile from '../components/organism/Profile'
 import SliderCard from '../components/organism/SliderCard'
 import Card from '../components/molecule/Card'
+import Footer from '../components/molecule/Footer'
 
 function MainTemplate({ gitData, dataMedium }){
   return (
@@ -26,6 +27,7 @@ function MainTemplate({ gitData, dataMedium }){
           }
         </SliderCard>
       </Main>
+      <Footer />
     </Container>
   )
 }

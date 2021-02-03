@@ -21,6 +21,15 @@ const Container = styled.div`
     }
   `}
 
+  ${props => props.footer && css`
+    width: 100%;
+    height: 50pt;
+    background: #a8a8a8bf;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  `}
+
   ${props => props.slider && css`
     align-items: flex-start;
     gap: 10px;

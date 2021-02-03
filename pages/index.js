@@ -1,5 +1,4 @@
-import requestApi from './api/api'
-
+import axios from 'axios'
 import MainTemplate from '../template/MainTemplate'
 
 export default function Home({ gitData, dataMedium }) {
@@ -9,15 +8,14 @@ export default function Home({ gitData, dataMedium }) {
 }
 
 export async function getStaticProps(){
-  const request = requestApi()
 
-  const gitData = await request.getGit()
-  const dataMedium = await request.getMedium()
+  const gitData = await axios.get('http://localhost:3000/api/git')
+  const dataMedium = await axios.get('http://localhost:3000/api/medium')
 
   return {
     props: {
-      gitData,
-      dataMedium
+      gitData: gitData.data,
+      dataMedium: dataMedium.data.dataMedium
     }
   }
 }

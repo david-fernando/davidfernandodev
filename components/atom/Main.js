@@ -9,6 +9,7 @@ const Main = styled.div`
   flex-direction: column;
   background: #fff;
   gap: 60pt;
+  padding-bottom: 31pt;
 
   @media (max-width: 852px) {
     width: 80%;
