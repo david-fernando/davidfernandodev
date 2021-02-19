@@ -9,15 +9,15 @@ const Text = styled.span`
     }
   `}
 
-  ${props => props.title && css`
+  ${props => props.$title && css`
     font-size: 24px;
   `}
 
-  ${props => props.about && css`
+  ${props => props.$about && css`
     font-size: 16px;
   `}
 
-  ${props => props.description && css`
+  ${props => props.$description && css`
     font-size: 16px;
     text-align: initial;
     max-height: 44%;

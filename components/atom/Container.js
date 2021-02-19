@@ -8,7 +8,7 @@ const Container = styled.div`
   align-items: center;
   background: #fff;
 
-  ${props => props.profile && css`
+  ${props => props.$profile && css`
     width: 75%;
     max-width: 755.35px;
     gap: 10px;

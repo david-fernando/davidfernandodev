@@ -27,7 +27,7 @@ function SliderCard({ title, children }){
   const card = children
   return (
     <Container slider>
-      <Text title>{ title }</Text>
+      <Text $title>{ title }</Text>
       <Carousel
         additionalTransfrom={0}
         arrows

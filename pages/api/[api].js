@@ -31,7 +31,7 @@ export default (request, response) => {
     return response.json(repositorys)
   }
   const getMedium = async()=>{
-    const data = await axios.get('https://mediumpostsapi.herokuapp.com/?usermedium=@davidfernandodamata21')
+    const data = await axios.get('https://mediumpostsapi.herokuapp.com/?usermedium=davidfernandodamata21')
 
     return response.json(data.data)
   }

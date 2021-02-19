@@ -7,7 +7,7 @@ import SocialLink from '../molecule/SocialLink'
 function Profile(){
   return (
     <WrapImage>
-      <Container profile>
+      <Container $profile>
         <Branding />
         <InfoProfile />
         <SocialLink />

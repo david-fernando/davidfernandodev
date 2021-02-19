@@ -7,8 +7,8 @@ function Card({ title, about }){
     <Container card>
       <CardImage />
       <Container inforCard>
-        <Text about>{ title }</Text>
-        <Text description>{ about }</Text>
+        <Text $about>{ title }</Text>
+        <Text $description>{ about }</Text>
       </Container>
     </Container>
   )
