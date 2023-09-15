@@ -1,0 +1,20 @@
+.bannerContainer {
+  @apply flex items-center justify-start;
+  width: 100dvw;
+  height: 481px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../../images/background.png');
+  position: absolute;
+  top: -16px;
+  padding-left: 134px;
+}
+
+.bannerContainer > img {
+  position: relative;
+  top: 31px;
+  border-radius: 100%;
+  width: 270px;
+  height: 270px;
+}
