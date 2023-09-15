@@ -12,7 +12,7 @@ function Banner(){
         <Image src={photo} alt='Foto' />
         <div>
           <h1>David Fernando</h1>
-          <h2>desenvolvedor web</h2>
+          <h2>Desenvolvedor Web</h2>
         <span className={style.links}>
           <Link href="https://github.com/david-fernando" target='_blank' >
             <IconBrandGithub size={27} stroke={1.5} /> GitHub
