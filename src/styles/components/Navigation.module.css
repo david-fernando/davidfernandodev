@@ -8,8 +8,8 @@
 }
 
 .content {
-  @apply flex justify-start items-center;
-  gap: 44dvw;
+  @apply flex justify-between items-center;
+  width: 84.4dvw
 }
 
 .logotipo {
