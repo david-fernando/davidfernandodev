@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-family: 'FuturaNow Headline Regular', sans-serif;
+}
+
+:root {
+  --dark-jungle: #222220;
+  --light-taupe: #b88967
+}
+
+*, p, b, span, div, h1, h2, h3, h4, h5, h6 {
+  font-family: 'FuturaNow Headline Regular', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  @apply flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'FuturaNow Headline Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('FuturaNow Headline Regular'), url('../fonts/FuturaNowHeadline.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaNow Headline Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('FuturaNow Headline Bold'), url('../fonts/FuturaNowHeadlineBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaNow Headline Extra Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('FuturaNow Headline Extra Bold'), url('../fonts/FuturaNowHeadlineExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hartwell Alt Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Hartwell Alt Regular'), url('../fonts/Hartwell Alt Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Hartwell Alt Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Hartwell Alt Bold'), url('../fonts/Hartwell Alt Bold.otf') format('opentype');
+}
