@@ -67,3 +67,7 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.links > a:hover {
+  opacity: 0.7;
+}

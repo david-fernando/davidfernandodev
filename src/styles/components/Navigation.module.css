@@ -48,6 +48,10 @@
   top: -2px;
 }
 
+.links > a:hover {
+  color: var(--light-taupe);
+}
+
 .links > .active {
   color: var(--light-taupe);
 }
