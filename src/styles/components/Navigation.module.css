@@ -1,0 +1,53 @@
+.navgationContainer {
+  @apply flex items-center justify-center z-10;
+  width: 100dvw;
+  height: 4.4375rem;
+  flex-shrink: 0;
+  background-color: rgba(240, 240, 240, 0.37);
+  backdrop-filter: blur(2px);
+}
+
+.content {
+  @apply flex justify-start items-center;
+  gap: 44dvw;
+}
+
+.logotipo {
+  @apply flex items-center;
+  flex-shrink: 0;
+  width: 303px;
+  height: 41px;
+  position: relative;
+}
+
+.logotipo > img {
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  overflow: visible;
+  color: var(--dark-jungle);
+}
+
+.logotipo > p {
+  color: var(--dark-jungle);
+  text-align: left;
+  font: 800 32px "Futura Now Headline", sans-serif;
+  position: absolute;
+  left: 47px;
+  top: -9px;
+}
+
+.links {
+  @apply flex items-center justify-center;
+  gap: 26px;
+}
+
+.links > a {
+  font: 25px "Futura Now Headline", sans-serif;
+  position: relative;
+  top: -2px;
+}
+
+.links > .active {
+  color: var(--light-taupe);
+}
