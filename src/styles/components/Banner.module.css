@@ -21,4 +21,49 @@
 .content {
   @apply flex items-center;
   width: 84.4dvw;
+  gap: 1.5rem;
+  position: relative;
+  top: 1.5rem
+}
+
+.content > div {
+  @apply flex justify-start;
+  flex-direction: column;
+  position: relative;
+  top: -0.9rem;
+}
+
+.content > div > h1 {
+  font-family: 'FuturaNow Headline Extra Bold', sans-serif;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.content > div > h2 {
+  color: var(--light-taupe);
+  font-family: Hartwell Alt;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.links {
+  @apply flex;
+  gap: 1rem;
+  position: relative;
+  top: 1.5rem;
+}
+
+.links > a {
+  @apply flex items-center;
+  gap: 0.1rem;
+  color: var(--iridium);
+  font-family: Hartwell Alt;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
