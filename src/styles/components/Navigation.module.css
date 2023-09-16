@@ -46,6 +46,7 @@
   font: 25px "Futura Now Headline", sans-serif;
   position: relative;
   top: -2px;
+  transition: color 0.3s ease
 }
 
 .links > a:hover {
