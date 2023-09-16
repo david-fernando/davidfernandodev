@@ -13,7 +13,7 @@ function Natigation(){
         </span>
         <span className={style.links}>
           <Link className={style.active} href="/">Início</Link>
-          <Link href="/">Serviços</Link>
+          <Link href="#services">Serviços</Link>
           <Link href="/">Projetos</Link>
           <Link href="/">Artigos</Link>
         </span>
