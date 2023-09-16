@@ -6,8 +6,8 @@
   background-position: center;
   background-size: cover;
   background-image: url('../../images/background.png');
-  position: absolute;
-  top: -16px;
+  position: relative;
+  top: -71px;
 }
 
 .bannerContainer > img {
