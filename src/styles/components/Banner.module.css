@@ -7,7 +7,6 @@
   background-size: cover;
   background-image: url('../../images/background.png');
   position: relative;
-  top: -71px;
 }
 
 .bannerContainer > img {
@@ -72,4 +71,116 @@
 
 .links > a:hover {
   opacity: 0.7;
+}
+
+@media (max-width: 1624px) {
+  .bannerContainer {
+    background-position-x: -180px;
+  }
+}
+
+@media (max-width: 1560px) {
+  .bannerContainer {
+    background-position-x: -248px;
+  }
+}
+
+@media (max-width: 1464px) {
+  .bannerContainer {
+    background-position-x: -298px;
+  }
+  .content > div > h1 {
+    position: relative;
+    scale: 0.8;
+    right: 5rem;
+  }
+  .content > div > h2 {
+    position: relative;
+    scale: 0.81;
+    right: 4.7rem;
+  }
+  .links > a {
+    font-size: 1.6rem;
+  }
+  .content {
+    top: 1.2rem
+  }
+}
+
+@media (max-width: 1392px) {
+  .bannerContainer {
+    background-position-x: -29px;
+  }
+  .content {
+    width: 101.4dvw;
+  }
+  .links > a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1368px) {
+  .bannerContainer {
+    background-position-x: -60px;
+  }
+}
+
+@media (max-width: 1312px) {
+  .bannerContainer {
+    background-position-x: -125px;
+  }
+}
+
+@media (max-width: 1288px) {
+  .bannerContainer {
+    background-position-x: -160px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .bannerContainer {
+    background-position-x: -191px;
+  }
+}
+
+@media (max-width: 1232px) {
+  .bannerContainer {
+    background-position-x: -234px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bannerContainer {
+    background-position-x: -274px;
+  }
+}
+
+@media (max-width: 1172px) {
+  .bannerContainer {
+    background-position-x: -308px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .bannerContainer {
+    background-position-x: -349px;
+  }
+}
+
+@media (max-width: 1112px) {
+  .bannerContainer {
+    background-position-x: -386px;
+  }
+}
+
+@media (max-width: 1084px) {
+  .bannerContainer {
+    background-position-x: -423px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .bannerContainer {
+    background-position-x: -453px;
+  }
 }
