@@ -5,6 +5,7 @@
   flex-shrink: 0;
   background-color: rgba(240, 240, 240, 0.37);
   backdrop-filter: blur(2px);
+  position: fixed
 }
 
 .content {
@@ -56,4 +57,36 @@
 
 .links > .active {
   color: var(--light-taupe);
+}
+
+@media (max-width: 1464px) {
+  .navgationContainer {
+    height: 3.8375rem;
+  }
+  .logotipo > p {
+    font-size: 30px
+  }
+  .links > a {
+    font-size: 24px;
+  }
+  .logotipo > img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 1392px) {
+  .content {
+    width: 101.4dvw;
+  }
+  .logotipo > p {
+    font-size: 32px
+  }
+  .links > a {
+    font-size: 25px;
+  }
+  .logotipo > img {
+    width: 34px !important;
+    height: 34px !important;
+  }
 }
