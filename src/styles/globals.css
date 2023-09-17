@@ -30,6 +30,7 @@ html, body {
   min-height: max-content;
   @apply flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
 a {
@@ -39,6 +40,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 1464px) {
+  html, body {
+    zoom: 0.983;
+  }
+}
+
+@media (max-width: 1392px) {
+  html, body {
+    zoom: 0.883;
+  }
 }
 
 @font-face {
