@@ -14,12 +14,25 @@
   line-height: normal;
 }
 
+.content {
+  @apply flex items-center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 .project {
   display: flex;
   align-items: flex-start;
   gap: 2.5rem;
   width: 84.4dvw;
   justify-content: center;
+  padding-bottom: 2.5rem;
+  border-bottom: 2px solid var(--light-taupe);
+  background: rgba(255, 255, 255, 0.46);
+}
+
+.project:last-child {
+  border: none;
 }
 
 .project > img {
