@@ -167,6 +167,12 @@
   }
 }
 
+@media (max-width: 1256px) {
+  .content {
+    width: 111.4dvw;
+  }
+}
+
 @media (max-width: 1112px) {
   .bannerContainer {
     background-position-x: -386px;
@@ -176,6 +182,12 @@
 @media (max-width: 1084px) {
   .bannerContainer {
     background-position-x: -423px;
+  }
+}
+
+@media (max-width: 1074px) {
+  .content {
+    width: 120.4dvw;
   }
 }
 
