@@ -90,3 +90,15 @@
     height: 34px !important;
   }
 }
+
+@media (max-width: 1256px) {
+  .content {
+    width: 111.4dvw;
+  }
+}
+
+@media (max-width: 1074px) {
+  .content {
+    width: 120.4dvw;
+  }
+}
