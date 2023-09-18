@@ -36,11 +36,23 @@
   display: flex;
   width: 30.1875rem;
   height: 11.375rem;
+  gap: 0.5rem;
   flex-direction: column;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  top: -18px;
+  top: -14px;
+}
+
+.project > div > a {
+  @apply flex items-center;
+  gap: 0.5rem;
+  color: var(--light-taupe);
+  font-family: Futura Now Headline;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .project > div > p:nth-child(1) {
@@ -57,6 +69,39 @@
   font-family: Futura Now Headline;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;  
+}
+
+@media (max-width: 1687px) {
+  .project {
+    gap: 1.5rem;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1623px) {
+  .project > div {
+    width: 29.1875rem;
+  }
+}
+
+@media (max-width: 1566px) {
+  .project > div {
+    width: 28.1875rem;
+  }
+}
+
+@media (max-width: 1513px) {
+  .project > div {
+    width: 27.1875rem;
+  }
+}
+
+@media (max-width: 1392px) {
+  .project {
+    width: 101.4dvw;
+  }
+  .project > img {
+    width: 67.802dvw;
+  }
 }
