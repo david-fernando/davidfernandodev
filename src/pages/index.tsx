@@ -2,6 +2,7 @@ import Natigation from "@/components/Navigation"
 import Banner from "@/components/Banner"
 import Services from "@/components/Services"
 import WhatsAppButton from "../components/WhatsAppButton"
+import Projects from "@/components/Projects"
 // import { Inter } from 'next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner />
       <Services />
       <WhatsAppButton />
+      <Projects />
     </div>
   )
 }
