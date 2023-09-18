@@ -32,7 +32,7 @@ function Natigation(){
           <Link
            onClick={() => setLinkActived('projects')} 
            className={(LinkActived === 'projects')? style.active: ''} 
-           href="/"
+           href="#projects"
            >
             Projetos
           </Link>
