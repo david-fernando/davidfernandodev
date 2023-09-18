@@ -118,3 +118,16 @@
     width: 67.802dvw;
   }
 }
+
+@media (max-width: 1256px) {
+  .project {
+    width: 111.4dvw;
+  }
+}
+
+@media (max-width: 1074px) {
+  .project {
+    width: 120.4dvw;
+    justify-content: space-around;
+  }
+}
