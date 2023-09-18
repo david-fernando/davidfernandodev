@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { IconExternalLink } from '@tabler/icons-react'
 
 import binaryTraders from '@/images/binarytraders.png'
 
@@ -15,7 +16,7 @@ function Projects(){
           <div>
             <p>BinaryTraders.net</p>
             <p>Lorem ipsum dolor sit amet consectetur. Odio tortor pulvinar arcu duis in quam amet rhoncus. Sit sed gravida elit libero lectus suspendisse sit non ipsum. Tincidunt tortor molestie cursus gravida. Praesent in lectus quam ultricies magna erat.</p>
-            <Link href='https://binarytraders.net/' target='_blank' >Acessar</Link>
+            <Link href='https://binarytraders.net/' target='_blank' >Acessar <IconExternalLink /></Link>
           </div>
         </span>
       </div>
